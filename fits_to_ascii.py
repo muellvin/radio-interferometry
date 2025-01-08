@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 
 # Define the folder containing the .fit files
-fits_folder = "./sun_meas_25/meas_1/"  # Replace with the path to your folder
-output_folder = "./sun_meas_25/meas_1/"  # Replace with the path to save .csv files
+fits_folder = "./sat_interest_25/"  # Replace with the path to your folder
+output_folder = "./sat_interest_25_csv/"  # Replace with the path to save .csv files
 
 # Ensure the output folder exists
 os.makedirs(output_folder, exist_ok=True)
