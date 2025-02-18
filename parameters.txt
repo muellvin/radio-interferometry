@@ -1,0 +1,10 @@
+parameters
+
+input:  time, freq, signal
+gaussian: I, mu, sigma, A, B
+fit:    (S, V, omega, delta) -> V, Bl
+
+
+A, mu, sigma do not really rescale anything
+
+interesting variables: I, B and their influence 
